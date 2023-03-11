@@ -1,5 +1,7 @@
 package com.laibaijiang;
 
+import com.laibaijiang.base.ListNode;
+
 /**
  * 题目条件：
  * 1. 给出两个链表(升序)

@@ -1,5 +1,10 @@
 package com.laibaijiang;
 
+import com.laibaijiang.base.ListNode;
+
+/**
+ * @see <></>
+ */
 public class MergeKLists {
 
     /**
@@ -16,6 +21,8 @@ public class MergeKLists {
         }
         return res;
     }
+
+
     public static ListNode mergeTwo(ListNode l1, ListNode l2){
         ListNode dummy = new ListNode();
         ListNode p = dummy;

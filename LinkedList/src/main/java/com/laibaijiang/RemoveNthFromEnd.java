@@ -6,6 +6,8 @@ package com.laibaijiang;
  * 2. 需要删除倒数指定的结点
  */
 
+import com.laibaijiang.base.ListNode;
+
 import java.util.LinkedList;
 
 /**

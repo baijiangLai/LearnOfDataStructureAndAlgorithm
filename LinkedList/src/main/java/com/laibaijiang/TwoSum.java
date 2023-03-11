@@ -1,6 +1,8 @@
 package com.laibaijiang;
 
 
+import com.laibaijiang.base.ListNode;
+
 /**
  * [本题](https://leetcode.cn/problems/add-two-numbers/)条件：
  * 1. 两个非空的链表
