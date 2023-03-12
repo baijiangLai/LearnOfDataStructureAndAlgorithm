@@ -1,7 +1,7 @@
 package com.laibaijiang.base;
 
 
-public class TreeNode {
+public class TreeNode extends Object{
     public int val;
     public TreeNode left;
     public TreeNode right;

@@ -1,6 +1,6 @@
 package com.laibaijiang.base;
 
-public class ListNode {
+public class ListNode extends Object{
     public int val;
     public ListNode next;
 
