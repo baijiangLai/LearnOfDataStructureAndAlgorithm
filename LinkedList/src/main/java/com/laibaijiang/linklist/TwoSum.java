@@ -1,4 +1,4 @@
-package com.laibaijiang;
+package com.laibaijiang.linklist;
 
 
 import com.laibaijiang.base.ListNode;

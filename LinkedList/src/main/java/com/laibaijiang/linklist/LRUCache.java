@@ -1,4 +1,4 @@
-package com.laibaijiang;
+package com.laibaijiang.linklist;
 
 import java.util.HashMap;
 import java.util.Map;

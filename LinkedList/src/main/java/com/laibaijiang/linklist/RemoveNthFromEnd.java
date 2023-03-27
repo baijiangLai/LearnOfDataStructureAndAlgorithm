@@ -1,4 +1,4 @@
-package com.laibaijiang;
+package com.laibaijiang.linklist;
 
 /**
  * 本题题目条件：
