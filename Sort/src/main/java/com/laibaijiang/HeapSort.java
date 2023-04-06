@@ -26,22 +26,22 @@ public class HeapSort {
         }
     }
 
-    private static void heapify(int[] arr, int i, int length) {
+    private static void heapify(int[] arr, int i, int lastIdx) {
         int largest = i;
         int left = 2 * i + 1;
         int right = 2 * i + 2;
         //如果左节点大于当前节点值，进行记录
-        if (left < length && arr[left] > arr[largest]){
+        if (left < lastIdx && arr[left] > arr[largest]){
             largest = left;
         }
         //如果右节点大于当前节点值，进行记录
-        if (right < length && arr[right] > arr[largest]){
+        if (right < lastIdx && arr[right] > arr[largest]){
             largest = right;
         }
         //只要当前节点值与原节点值不一样，进行交换，并重新保持堆的稳定
         if (largest != i){
             swap(arr, i, largest);
-            heapify(arr, largest, length);
+            heapify(arr, largest, lastIdx);
         }
     }
 
