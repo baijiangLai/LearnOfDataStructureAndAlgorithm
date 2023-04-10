@@ -15,7 +15,7 @@ import java.util.Map;
  * 3. 遍历给定字符串，如果是左括号，那么就入栈，如果是右括号，那么查看栈顶元素是否和map中对应的左括号一致，是就弹出。
  * 4. 如果遍历完全，只需要看栈是否为空。
  */
-public class ValidBucket {
+public class ValidBracket {
     public static boolean isValid(String s){
         int size = s.length();
         if (size % 2 == 1){

@@ -6,7 +6,7 @@
 会根据常见的数据结构进行划分
 1. [链表](https://github.com/baijiangLai/DataStructureAndAlgorithm/tree/master/LinkedList)
 3. [排序算法](https://github.com/baijiangLai/DataStructureAndAlgorithm/tree/master/Sort)
-2. 栈
+2. [栈]((https://github.com/baijiangLai/DataStructureAndAlgorithm/tree/master/Stack)
 4. 队列
 3. 树
 4. 图
