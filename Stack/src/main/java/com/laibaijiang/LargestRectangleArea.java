@@ -7,7 +7,7 @@ import java.util.LinkedList;
  * 遍历每个柱子的时候，只要当前柱子高度不小于栈顶柱子，就将当前柱子入栈。
  * 只要当前柱子高度小于栈顶的柱子，此时说明栈顶的柱子找到了右边的第一个小于自身高度的柱子，就可以将栈顶柱子出栈计算以该柱子为高的矩形面积了
  */
-public class largestRectangleArea {
+public class LargestRectangleArea {
     public static void main(String[] args) {
         int[] heights = {2,1,5,6,2,3};
         int res = largestRectangleAreaResolve(heights);

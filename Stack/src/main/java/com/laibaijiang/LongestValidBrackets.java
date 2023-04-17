@@ -10,9 +10,9 @@ import java.util.LinkedList;
  */
 public class LongestValidBrackets {
     public static void main(String[] args) {
-        LongestValidBracketsResolve();
+        longestValidBracketsResolve();
     }
-    public static void LongestValidBracketsResolve(){
+    public static void longestValidBracketsResolve(){
         String s = "(()";
         int solution = LongestValidBrackets.Solution(s);
         System.out.println(solution);

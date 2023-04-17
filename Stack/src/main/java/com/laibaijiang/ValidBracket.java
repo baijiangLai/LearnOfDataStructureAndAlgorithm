@@ -16,7 +16,10 @@ import java.util.Map;
  * 4. 如果遍历完全，只需要看栈是否为空。
  */
 public class ValidBracket {
-    public static boolean isValid(String s){
+    public static void main(String[] args) {
+
+    }
+    public static boolean validBracketResolve(String s){
         int size = s.length();
         if (size % 2 == 1){
             return false;

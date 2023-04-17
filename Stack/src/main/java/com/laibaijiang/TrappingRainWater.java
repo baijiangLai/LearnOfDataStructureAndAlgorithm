@@ -10,7 +10,7 @@ import java.util.LinkedList;
 public class TrappingRainWater {
     public static void main(String[] args) {
         int[] height = new int[]{0,1,0,2,1,0,1,3,2,1,2,1};
-        int res = trap(height);
+        int res = trappingRainWaterResolve(height);
         System.out.println(res);
     }
 
@@ -29,7 +29,7 @@ public class TrappingRainWater {
      * @param height
      * @return
      */
-    public static int trap(int[] height){
+    public static int trappingRainWaterResolve(int[] height){
         int res = 0;
         LinkedList<Integer> stack = new LinkedList<>();
         int size = height.length;
