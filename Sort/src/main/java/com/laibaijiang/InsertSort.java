@@ -1,10 +1,12 @@
 package com.laibaijiang;
 
+import java.util.Arrays;
+
 public class InsertSort {
     public static void main(String[] args) {
         int[] arr = {5,4,6,7,2,3,3};
         insetSort(arr);
-        System.out.println(arr.toString());
+        System.out.println(Arrays.toString(arr));
     }
     public static void insetSort(int[] arr){
         for (int i = 0; i < arr.length; i++){

@@ -1,10 +1,12 @@
 package com.laibaijiang;
 
+import java.util.Arrays;
+
 public class RadixSort {
     public static void main(String[] args) {
         int[] arr = {26,3,49,556,81,9,863,0};
         radixSortResolve(arr);
-        System.out.println(arr.toString());
+        System.out.println(Arrays.toString(arr));
     }
     public static void radixSortResolve(int[] arr){
         //分解个十百...位  value/exp(具体指代个、十、百位)%10

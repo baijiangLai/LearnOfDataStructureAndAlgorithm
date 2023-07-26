@@ -1,13 +1,14 @@
 package com.laibaijiang;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class BucketSort {
     public static void main(String[] args) {
         int[] arr = {5,4,6,7,2,3,3};
         bucketSortResolve(arr);
-        System.out.println(arr.toString());
+        System.out.println(Arrays.toString(arr));
     }
     public static void bucketSortResolve(int[] arr){
         //找出最大值
