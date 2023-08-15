@@ -6,23 +6,20 @@ import java.util.Collections;
 
 public class BucketSort {
     public static void main(String[] args) {
-        int[] arr = {5,4,6,7,2,3,3};
+        int[] arr = {5, 2, 9, 5, 2, 3, 5, 10};
         bucketSortResolve(arr);
         System.out.println(Arrays.toString(arr));
     }
     public static void bucketSortResolve(int[] arr){
-        //找出最大值
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > max){
-                max = arr[i];
-            }
-        }
-        //找出最小值
+        //max、min
         int min = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-            if (arr[i] < max){
-                min = arr[i];
+        int max = arr[0];
+        for (int num : arr) {
+            if (num < min) {
+                min = num;
+            }
+            if (num > max) {
+                max = num;
             }
         }
         //确定桶的数量，这是一个大桶，大桶里面分别放好几个小桶
