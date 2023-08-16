@@ -2,3 +2,6 @@ rootProject.name = 'DataStructureAndAlgorithm'
 include 'LinkedList'
 include 'Sort'
 include 'Stack'
+include 'BinarySearch'
+include 'CrackingTheCodingInterview'
+
